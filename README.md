@@ -16,7 +16,12 @@ Requirements to build and run:
 
 To build and run:
 1. fasm server.asm
-2. ld server.o
+2. fasm utils/parseRequestMethod.asm
+2. ld server.o utils/parseRequestMethod.o
 3. strace ./a.out
 
-Servers spins up to port 8080
+-> Servers spins up to port 8080
+
+I'll write a script someday to make building easier.
+
+
