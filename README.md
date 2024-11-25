@@ -8,11 +8,13 @@ Minimalistic x86-64 assembly web-server for linux.
 
 ## Getting Started
 
-Works only on 64-bit linux, as windows and 32-bit Linux systems use different system calls. Also includes pre-build server if you don't want yo to install a compiler.
+Works only on 64-bit linux, as windows and 32-bit Linux systems use different system calls. Also includes pre-build server if you don't want to install a compiler.
 
 
 Requirements to build and run:
 1. fasm: https://flatassembler.net/download.php
+
+Probably works with nasm too, haven't tested
 
 To build and run:
 1. fasm server.asm
